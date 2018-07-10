@@ -1,4 +1,11 @@
 // pages/Home/Home.js
+
+const app = getApp()
+
+const config = require('./../../config/index.js');
+const URL = require('./../../config/url.js');
+const http = require('./../../config/http.js');
+
 Page({
 
   /**
@@ -13,6 +20,15 @@ Page({
    */
   onLoad: function (options) {
   
+    // 全局 URL 配置
+    console.log(URL.testUrl);
+    // 全局请求
+    http(URL.testUrl).then((data) => {
+      console.log(data);
+    }).catch((err) => {
+      console.log(err);
+    })
+
   },
 
   /**
