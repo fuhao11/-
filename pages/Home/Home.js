@@ -21,7 +21,7 @@ Page({
   onLoad: function (options) {
   
     // 全局 URL 配置
-    console.log(URL.testUrl);
+    // console.log(URL.testUrl);
     // 全局请求
     http(URL.homeUrl, {pageIndex: 1, pageSize: 20}).then((data) => {
       console.log(data);
