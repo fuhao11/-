@@ -1,5 +1,5 @@
 <view>
-  <video class='video' src='/video/video2.mp4' objectFit='fill'></video>
+  <video class='video' src='http://yun.it7090.com/video/XHLaunchAd/video03.mp4' objectFit='cover'></video>
   <view class='bottom'>
     <view class='img'>
       <image src='/imgs/Bitmap4 Copy.png'></image>

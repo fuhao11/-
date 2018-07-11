@@ -7,8 +7,8 @@ Page({
   data: {
         List:[
           {
-            titles:
-            url:
+            titles: {},
+            url:{}
           },
           {},
           {}
