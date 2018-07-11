@@ -1,2 +1,19 @@
-<!--pages/Details/Vedio/Vedio.wxml-->
-<text>单品视频页pages/Details/Vedio/Vedio.wxml</text>
+<view>
+  <video class='video' src='/video/video2.mp4' objectFit='fill'></video>
+  <view class='bottom'>
+    <view class='img'>
+      <image src='/imgs/Bitmap4 Copy.png'></image>
+    </view>
+    <view class='bottom-text1'>开爽软包本色抽纸餐巾纸一提6包3层14
+0抽420张全场促销</view>
+    <view class='bottom-text2'>
+      <text class='t-1'>2人拼团</text>
+      <text class='t-2'>已拼9999件</text>
+    </view>
+    <view class='bottom-text3'>拼团立省10.0元</view>
+    <view class='bottom-text4'><text>¥</text>9.00</view>
+    <view class='bottom-text5'><text>¥</text>10.00</view>
+  </view>
+</view>
+
+ 
