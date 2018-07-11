@@ -23,7 +23,7 @@ Page({
     // 全局 URL 配置
     console.log(URL.testUrl);
     // 全局请求
-    http(URL.testUrl).then((data) => {
+    http(URL.homeUrl, {pageIndex: 1, pageSize: 20}).then((data) => {
       console.log(data);
     }).catch((err) => {
       console.log(err);

@@ -9,4 +9,5 @@ function FullUrl(route, host = HOST) {
 module.exports = {
   // 测试链接
   testUrl: FullUrl("v3/platform/web/token/getToken.json"),
+  homeUrl: FullUrl("wechat/groupbuy/home/index.json"), // 首页接口
 };
