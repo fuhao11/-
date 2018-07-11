@@ -1,1 +1,54 @@
 /* pages/Home/Home.wxss */
+::-webkit-scrollbar{display: none;}
+
+.swiper-container{
+  position: relative;
+}
+.swiper-container .swiper{
+  height: 300rpx;
+}
+.swiper-container .swiper .img{
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .dots{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20rpx;
+  display: flex;
+  justify-content: center;
+}
+.swiper-container .dots .dot{
+  margin: 0 8rpx;
+  width: 14rpx;
+  height: 14rpx;
+  background: #fff;
+  border-radius: 8rpx;
+  transition: all .6s;
+}
+.swiper-container .dots .dotactive{
+  width: 24rpx;
+  background: #f80;
+}
+
+
+page{background: #eee;}
+.slide-image{width: 100%;}
+.home_lists{margin-top: 20rpx;background: #fff;}
+.home_listimg{width: 100%;height: 360rpx;}
+.home_text{padding: 10rpx 32rpx 16rpx 32rpx;position: relative;}
+.home_title{font-size: 32rpx;color: #333;line-height: 34rpx;font-family: PingFangSC-Regular;margin-bottom: 10rpx;}
+.home_text_icon{font-size: 24rpx;color: #FF6026;font-family: PingFangSC-Regular;}
+.home_text_pire{color: #FF6026;font-size: 32rpx;margin-right: 32rpx;font-family: PingFangSC-Medium;}
+.home_text_usernum{ font-size: 24rpx; border: 2rpx #eee solid;border-radius: 200rpx;padding: 3rpx 16rpx;color: #666;}
+.home_text_pire2{color: #666;font-size: 24rpx;font-family: PingFangSC-Regular;margin-top: 12rpx;}
+.home_text_btn{background: #FF6026;
+border-radius: 200rpx;font-size: 28rpx;
+color: #FFFFFF;
+line-height: 56rpx;width: 148rpx;height: 56rpx;
+position: absolute;right: 32rpx;top: 64rpx;font-family: PingFangSC-Regular;}
+.home_loding{height: 80rpx;line-height: 80rpx;text-align: center;
+font-family: PingFangSC-Regular;
+font-size: 24rpx;
+color: #999999;}

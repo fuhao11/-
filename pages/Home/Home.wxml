@@ -1,2 +1,35 @@
 <!--pages/Home/Home.wxml-->
-<text>首页pages/Home/Home.wxml</text>
+<view class="swiper-container">
+  <swiper autoplay="auto" interval="5000" duration="500" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+    <block wx:for="{{imgUrl}}" wx:key="unique">
+      <swiper-item>
+        <image src="{{item}}" class="img"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+ 
+  <view class="dots">
+    <block wx:for="{{imgUrl}}" wx:key="unique">
+      <view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+    </block>
+  </view>
+</view>
+
+
+
+
+<view  wx:for="{{lists}}" class='home_lists'>
+  <image src="{{item.listimg}}" class='home_listimg'/>
+  <view class='home_text'>
+    <view class='home_title'>{{item.title}}</view>
+    <view>
+     <text class='home_text_icon'>￥</text> <text class='home_text_pire'>{{item.pire}}</text>
+      <text class='home_text_usernum'>{{item.usernum}}</text>
+        <view  class='home_text_pire2'>单购价:{{item.pire2}}</view>
+    </view>
+    <button class='home_text_btn'>去拼团</button>
+  </view>
+</view>
+<view class='home_loding'>
+加载中...
+</view>
