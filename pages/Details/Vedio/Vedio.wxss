@@ -7,16 +7,16 @@ page{
   display: none;
 }
 .video{
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: 954rpx;
+  height: 80%;
 }
 
 .bottom{
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 252rpx;
-  top: 0;
+  bottom: 0;
 }
 .bottom .img{
   position: absolute;
