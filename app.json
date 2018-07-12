@@ -8,11 +8,15 @@
 
     "pages/Details/index/index",
     "pages/Details/Evaluate/Evaluate",
+
     "pages/Order/PutOrder/PutOrder",
     "pages/Order/MyOrder/MyOrder",
-    "pages/Me/MyCollections/MyCollections",
     "pages/Order/OrderDetail/OrderDetail",
-    "pages/Tuan/Tuan"
+
+    "pages/Me/MyCollections/MyCollections",
+    
+    "pages/Tuan/Tuan",
+    "pages/Tuan/TuanDetail/TuanDetail"
   ],
   "tabBar": {
     "color": "#999",

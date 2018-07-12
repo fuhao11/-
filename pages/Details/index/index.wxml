@@ -1,2 +1,66 @@
-<!--pages/Details/index/index.wxml-->
-<text>详情页单品页pages/Details/index/index.wxml</text>
+<view>
+  <swiper class='top' indicator-dots='true' autoplay='true' interval='3000' circular='true'>
+    <block wx:for='{{[0,1,2]}}'>
+      <swiper-item >
+        <image src='/imgs/Bitmap4 Copy.png'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class='middle'>
+    <view class='view-1'>￥</view>
+    <view class='view-2'>2566.00</view>
+    <view class='view-3'>包邮</view>
+    <view class='view-4'>已拼9999件</view>
+    <view class='view-5'>2人拼团</view>
+    <view class='view-6'>海尔冰箱 BCD-458WDVMU124小时保鲜</view>
+    <view class='view-7'>
+      <image src='/imgs/分享-红色@2x.png'></image>
+    </view>
+    <view class='view-8'>分享</view>
+  </view>
+
+  <view class='bottom'>
+    <view class='text-1'>小伙伴在拼单，可直接参与</view>
+    <scroll-view class='list' scroll-y='true'>
+      <block wx:for='{{[0,1,2]}}'>
+        <view class='item'>
+          <view class='item-1'>
+            <image src='/imgs/icon.jpg'></image>
+          </view>
+          <view class='item-2'>木xiao奕</view>
+          <view class='item-3'>还差1人拼成</view>
+          <view class='item-4'>剩余23:12:38</view>
+          <view class='item-5'>去拼团</view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+
+  <view class='ping-jia'>
+    <view class='view-1'>商品评价（688）</view>
+    <view class='view-2'>查看全部</view>
+    <view class='view-3'>
+      <image src='/imgs/more@2x.png'></image>
+    </view>
+    <scroll-view class='list' scroll-y='true'>
+      <block wx:for='{{[0,1,2]}}'>
+        <view class='item'>
+          <view class='item-1'> 
+            <image src='/imgs/icon.jpg'></image>
+          </view>
+          <view class='item-2'>R******c</view>
+          <view class='item-3'>2018.01.15</view>
+          <view class='item-4'>不错的产品，不错的产品不错的产品不错的产品不错的产品不错的产品不错...</view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+
+  <view class='details'>
+    <view class='text-1'>商品详情</view>
+    <view class='img'>
+      <image src='/imgs/Bitmap4 Copy.png'></image>
+    </view>
+  </view>
+</view>
